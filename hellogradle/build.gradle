@@ -6,12 +6,6 @@ plugins {
 group = 'cn.chriswood'
 version = '1.0-SNAPSHOT'
 
-repositories {
-    maven { url 'https://maven.aliyun.com/repository/public/' }
-    mavenLocal()
-    mavenCentral()
-}
-
 dependencies {
     implementation 'org.jetbrains.kotlin:kotlin-reflect'
     testImplementation 'org.jetbrains.kotlin:kotlin-test'
@@ -22,7 +16,7 @@ test {
 }
 
 kotlin {
-    jvmToolchain(8)
+//    jvmToolchain(8)
 }
 
 task hello() {
@@ -30,4 +24,7 @@ task hello() {
     doLast {
         println("dolast closure")
     }
+}
+application {
+    mainClass = 'cn.chriswood.hellogradle.Main'
 }

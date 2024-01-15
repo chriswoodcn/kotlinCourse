@@ -6,6 +6,7 @@ plugins {
 group = "cn.chriswood"
 version = "1.0-SNAPSHOT"
 
+
 dependencies {
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     testImplementation("org.jetbrains.kotlin:kotlin-test")
@@ -15,5 +16,5 @@ tasks.test {
     useJUnitPlatform()
 }
 application {
-    mainClass = "cn.chriswood.hellogradleKt.Main"
+    mainClass = "cn.chriswood.basicType.Main"
 }

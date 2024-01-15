@@ -1,7 +1,7 @@
 pluginManagement {
     repositories {
-        maven { url 'https://maven.aliyun.com/repository/public/' }
         mavenLocal()
+        maven { url 'https://maven.aliyun.com/repository/public/' }
         mavenCentral()
         gradlePluginPortal()
     }
@@ -14,4 +14,5 @@ plugins {
 rootProject.name = 'hellokotlin'
 include 'hellogradle'
 include 'hellogradleKt'
+include 'basictype'
 
