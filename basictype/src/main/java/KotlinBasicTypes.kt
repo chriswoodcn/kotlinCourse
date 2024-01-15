@@ -1,8 +1,7 @@
-package com.bennyhuo.kotlin.builtintypes.basics
-
 class KotlinBasicTypes {
     companion object {
-        fun main() {
+        @JvmStatic
+        fun main(args: Array<String>) {
             var a = 2
             val b = "Hello Kotlin"
 

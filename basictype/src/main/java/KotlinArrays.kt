@@ -1,8 +1,7 @@
-package com.bennyhuo.kotlin.builtintypes.arrays
-
 class KotlinArrays {
     companion object {
-        fun main() {
+        @JvmStatic
+        fun main(args: Array<String>) {
             val a = IntArray(5)
             println(a.size) //same with the Collections(e.g. List)
 
