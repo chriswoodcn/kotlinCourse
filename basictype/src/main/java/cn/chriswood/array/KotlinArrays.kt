@@ -1,3 +1,5 @@
+package cn.chriswood.array
+
 class KotlinArrays {
     companion object {
         @JvmStatic

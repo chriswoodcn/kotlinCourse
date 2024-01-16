@@ -1,3 +1,5 @@
+package cn.chriswood.basic
+
 class KotlinBasicTypes {
     companion object {
         @JvmStatic

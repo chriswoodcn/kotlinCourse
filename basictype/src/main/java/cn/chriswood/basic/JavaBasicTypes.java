@@ -1,4 +1,4 @@
-
+package cn.chriswood.basic;
 
 public class JavaBasicTypes {
     public static void main(String... args) {
