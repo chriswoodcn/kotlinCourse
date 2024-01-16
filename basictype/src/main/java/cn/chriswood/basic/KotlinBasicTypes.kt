@@ -1,3 +1,5 @@
+package cn.chriswood.basic
+
 class KotlinBasicTypes {
     companion object {
         @JvmStatic
@@ -14,7 +16,7 @@ class KotlinBasicTypes {
             //val f: Long = e // implicitness not allowed
             val f: Long = e.toLong() // implicitness not allowed
 
-            val float1: Float = 1f
+            val float1: Float = 1.0f
             val double1 = 1.0
 
             val g: UInt = 10u
