@@ -15,4 +15,5 @@ rootProject.name = 'hellokotlin'
 include 'hellogradle'
 include 'hellogradleKt'
 include 'basictype'
+include 'type'
 
