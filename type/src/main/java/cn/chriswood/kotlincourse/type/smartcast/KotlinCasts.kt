@@ -1,8 +1,7 @@
 package cn.chriswood.kotlincourse.type.smartcast
 
-import cn.chriswood.type.smartcast.kotlin.Kotliner
-import cn.chriswood.type.smartcast.kotlin.Person
-
+import cn.chriswood.kotlincourse.type.smartcast.kotlin.Kotliner
+import cn.chriswood.kotlincourse.type.smartcast.kotlin.Person
 
 class KotlinCasts {
 

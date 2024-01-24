@@ -1,7 +1,8 @@
 package cn.chriswood.kotlincourse.type.classes
 
-import cn.chriswood.type.classes.kotlin.InitOrderDemo
-import cn.chriswood.type.classes.kotlin.SimpleClass
+import cn.chriswood.kotlincourse.type.classes.kotlin.InitOrderDemo
+import cn.chriswood.kotlincourse.type.classes.kotlin.SimpleClass
+
 
 class KotlinClasses {
     companion object {
