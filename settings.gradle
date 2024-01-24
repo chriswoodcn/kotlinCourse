@@ -1,8 +1,8 @@
+//ref https://docs.gradle.org/current/userguide/writing_settings_files.html#writing_settings_files
+// groovy dsl settings https://docs.gradle.org/current/dsl/org.gradle.api.initialization.Settings.html
+// kotlin dsl settings https://docs.gradle.org/current/kotlin-dsl/gradle/org.gradle.api.initialization/-settings/index.html
 pluginManagement {
     repositories {
-        mavenLocal()
-        maven { url 'https://maven.aliyun.com/repository/public/' }
-        mavenCentral()
         gradlePluginPortal()
     }
 }
@@ -11,9 +11,17 @@ plugins {
     id 'org.gradle.toolchains.foojay-resolver-convention' version '0.5.0'
 }
 
+dependencyResolutionManagement {
+    repositories {
+        mavenLocal()
+        maven { url 'https://maven.aliyun.com/repository/public/' }
+        mavenCentral()
+    }
+}
 rootProject.name = 'hellokotlin'
 include 'hellogradle'
 include 'hellogradleKt'
 include 'basictype'
 include 'type'
+include 'annotation'
 

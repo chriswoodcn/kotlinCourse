@@ -3,9 +3,8 @@ plugins {
     id("application")
 }
 
-group = "cn.chriswood"
-version = "1.0-SNAPSHOT"
-
+group = "cn.chriswood.kotlincourse"
+version = "1.0.0-SNAPSHOT"
 
 dependencies {
     implementation("org.jetbrains.kotlin:kotlin-reflect")
@@ -14,7 +13,4 @@ dependencies {
 
 tasks.test {
     useJUnitPlatform()
-}
-application {
-    mainClass = "cn.chriswood.basicType.Main"
 }

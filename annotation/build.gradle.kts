@@ -1,19 +1,15 @@
 plugins {
     kotlin("jvm") version "1.9.21"
+    id("application")
 }
 
 group = "cn.chriswood.kotlincourse"
 version = "1.0.0-SNAPSHOT"
 
-repositories {
-    mavenCentral()
-}
-
 dependencies {
     implementation("org.jetbrains.kotlin:kotlin-reflect")
-    implementation("com.squareup.retrofit2:retrofit:2.6.2")
-    implementation("com.squareup.retrofit2:converter-gson:2.6.2")
-    implementation("com.google.code.gson:gson:2.10.1")
+    implementation("com.squareup.okhttp3:okhttp:3.14.0")
+    implementation("com.google.code.gson:gson:2.8.1")
     testImplementation("org.jetbrains.kotlin:kotlin-test")
 }
 
