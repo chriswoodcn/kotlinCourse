@@ -24,4 +24,5 @@ include 'hellogradleKt'
 include 'basictype'
 include 'type'
 include 'annotation'
+include 'generics'
 
